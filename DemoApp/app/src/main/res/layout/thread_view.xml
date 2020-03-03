@@ -1,0 +1,109 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/threadName"
+        android:gravity="center"
+        android:text="Thread"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        style="@style/lineStyle">
+    </TextView>
+
+    <LinearLayout
+        android:id="@+id/line1"
+        android:layout_margin="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="line 1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/lineStyle">
+        </TextView>
+
+        <TextView
+
+            android:text="@string/while_sharedcounter_amp_lt_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/codeStyle">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/line2"
+
+        android:layout_margin="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="line 2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/lineStyle">
+        </TextView>
+
+        <TextView
+
+            android:text="     sharedCountrt++"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/codeStyle">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/line3"
+
+        android:layout_margin="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="line 3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/lineStyle">
+        </TextView>
+
+        <TextView
+
+            android:text="}"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/codeStyle">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/line4"
+
+        android:layout_margin="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="line 4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/lineStyle">
+        </TextView>
+
+        <TextView
+            android:text="Exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/codeStyle">
+        </TextView>
+
+    </LinearLayout>
+
+
+</LinearLayout>
