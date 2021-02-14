@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">DemoApp</string>
+    <string name="app_name">Thread Life</string>
     <string name="while_sharedcounter_amp_lt_3"><![CDATA[while ( sharedCounter < 4 ) {]]></string>
 </resources>
