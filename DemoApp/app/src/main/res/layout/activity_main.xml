@@ -76,12 +76,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <Button
+            android:textSize="18dp"
+            android:textColor="@android:color/holo_red_dark"
             android:id="@+id/contextSwitch"
             android:text="Clock Pulse 0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"></Button>
 
         <Button
+            android:textSize="18dp"
             android:layout_marginLeft="16dp"
             android:id="@+id/reset"
             android:text="Reset"
